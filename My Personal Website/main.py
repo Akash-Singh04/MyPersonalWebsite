@@ -21,7 +21,11 @@ def twitterbot():
 @app.route('/tindog')
 def tindog():
     return render_template("tindog.html")
+    
+@app.route('/lofisongplayer')
+def lofisongplayer():
+    return render_template("lofi-song-player.html")
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
