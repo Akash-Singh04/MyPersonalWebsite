@@ -18,9 +18,10 @@ def tinderbot():
 def twitterbot():
     return render_template("twitter-bot.html")
 
-@app.route('/tindog')
-def tindog():
-    return render_template("tindog.html")
+@app.route('/aiimagegenerator')
+def aiimagegenerator():
+    return render_template("aiimagegenerator.html")
+
     
 @app.route('/lofisongplayer')
 def lofisongplayer():
