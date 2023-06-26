@@ -28,5 +28,11 @@ def lofisongplayer():
     return render_template("lofi-song-player.html")
 
 
+@app.route('/sleepsense')
+def sleepsense():
+    return render_template("sleepsense.html")
+
+
+
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
