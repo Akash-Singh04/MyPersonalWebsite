@@ -14,6 +14,11 @@ def blogwebsite():
 def tinderbot():
     return render_template("tinder-bot.html")
 
+@app.route('/classsnap')
+def classsnap():
+    return render_template("classsnap.html")
+
+
 @app.route('/twitterbot')
 def twitterbot():
     return render_template("twitter-bot.html")
